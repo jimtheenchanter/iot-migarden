@@ -22,3 +22,20 @@ Java
 
 Also used:
 Blynk Software, Node.js platform
+
+References:
+
+
+UX APP INDOOR GARDEN
+https://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fblog.prototypr.io%2Fava-byte-creating-a-mobile-app-for-an-indoor-smart-garden-db23b8434836
+
+
+MQTT thingspeak BAsics
+https://uk.mathworks.com/help/thingspeak/mqtt-basics.html
+
+MQTT RTaspberry pi Thingspeak
+https://community.thingspeak.com/tutorials/update-a-thingspeak-channel-using-mqtt-on-a-raspberry-pi/
+
+
+REST api JSOn Server
+https://medium.com/codingthesmartway-com-blog/create-a-rest-api-with-json-server-36da8680136d
