@@ -1,14 +1,54 @@
 # iot-greenhouse-app
 
+James OBrien
+20082197
+Computer Science & Networking Assignment
+January 2019
 
+Dashboard url:
 http://assignment1.jimwithaj.com/thingspeak.html
 
-Sensor-driven system allowing users to monitor and control indoor growing conditions
-. User gets Twitter updates if ligth falls below a certain amount of lumins.
+Youtube Video:
+https://youtu.be/NOwSJjczkzg
 
-Data is stored in a database on designated Pi and on cloud aggregator, Thingspeak.com
+SUMMARY
+Sensor-driven system allowing users to monitor and control indoor 
 
-Hardware:
+growing conditions
+. User gets Twitter updates if light falls below a 
+
+certain amount of lumins.
+
+Data is stored in a database on designated Pi and on cloud aggregator, 
+
+Thingspeak.com
+
+HOW IT WORKS
+Server:
+Raspberry Pi with SenseHat is publishing humidity, temperature and 
+pressure through MQTT and to Thingspeak using Python.
+It also has a javascript file on it with node.js framework installed to 
+allow a remote device, such as a smartphone, to turn on and off a light.
+ThingSpeak has a react set up to send a Tweet to the users' Twitter page 
+if the light lumins fall below 80. In which case the user can decide to 
+turn on the light.
+
+client_pub_mult.py
+index.js
+
+Database:
+A second Raspberry Pi is subscribing using paho.mqtt.client and 
+exporting to a db.json using TinyDB.
+This database Pi also has useful scripts which contain functions which 
+can be used to mainulate the gathered data eg. average temp over a 
+certain time period.
+
+sense_api.py 
+temp_db_data.py
+db.json
+
+
+HARDWARE:
 2 x Raspberry Pi's
 Sensehat
 2 x smart phones
@@ -23,19 +63,3 @@ Java
 Also used:
 Blynk Software, Node.js platform
 
-References:
-
-
-UX APP INDOOR GARDEN
-https://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fblog.prototypr.io%2Fava-byte-creating-a-mobile-app-for-an-indoor-smart-garden-db23b8434836
-
-
-MQTT thingspeak BAsics
-https://uk.mathworks.com/help/thingspeak/mqtt-basics.html
-
-MQTT RTaspberry pi Thingspeak
-https://community.thingspeak.com/tutorials/update-a-thingspeak-channel-using-mqtt-on-a-raspberry-pi/
-
-
-REST api JSOn Server
-https://medium.com/codingthesmartway-com-blog/create-a-rest-api-with-json-server-36da8680136d
