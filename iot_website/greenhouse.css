@@ -1,0 +1,560 @@
+
+html
+ {
+  background-color: white;
+  width:100%;                                    /*declare document width*/
+ }
+
+body 
+ {
+  background-color: #ffffff;                      
+  max-width: 80%;
+  margin: 0 auto;                                 /*center align body*/
+  padding:0px;
+  font-size:100%;                                /*declare font size (default 16px)*/    
+ }                                               /*em to be used for remainder */ 
+                                                 /*for scalablility */
+
+.main
+ {
+  width: 100%;
+  background-color: white;
+  height:auto;
+  margin:0;
+  padding: 0;
+ 
+ }
+
+#header
+ {
+  background-color: #918714;
+  width: 100%;
+  padding-top:0;
+  margin:0;
+ }
+
+.parallax 
+  {
+   padding-top:2em;
+   background-image: url('images/marquee.jpg');
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin:0px;
+  }
+
+.parallax:after 
+ {
+  content: "";
+  display: table;
+  clear: both;
+ }  
+
+.parallax #listen 
+  {
+   background-image: url('images/beers in air.jpg');
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+  }
+
+ parallax #listen:after 
+ {
+  content: "";
+  display: table;
+  clear: both;
+ }  
+
+.parallax #watch 
+  {
+   background-image: url('images/this-must-be-the-place.jpg');
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+  }
+
+.parallax #watch:after 
+ {
+  content: "";
+  display: table;
+  clear: both;
+ }
+
+
+h1
+  {
+   color: white;
+   background-color: none;
+   border: 0px;
+   font: 6em/1 'Londrina Solid', cursive;
+   padding-bottom: 0em;
+   margin-bottom:0em;
+  }
+
+h2  
+  {color: white;
+   background-color: none;
+   border: 0px;
+   font: 5em/1 'Londrina Solid', cursive
+   font-size: 2.5em;
+   letter-spacing: .1em;
+   padding-top: 0em;
+   margin-top:0em;
+  }
+
+h3  
+  {color: white;
+   background-color: none;
+   border: 0px;
+   font: 5em/1 'Londrina Solid', cursive
+    
+    font-size:2em;
+    letter-spacing: .1em;
+  } 
+
+h4 
+  {
+    
+    font-family: 'Londrina Outline', sans-serif, cursive;
+    font-size:4em;
+    font-style:italic;
+    letter-spacing: .05em;
+    border-spacing: 0;
+    padding-bottom:0;
+    padding-top:0;
+    margin-bottom:-.4em;
+    margin-top: -.2em;
+  } 
+
+h5  
+  {
+    color: black;
+    text-align: left:;
+    border: 0px;
+    font-family: 'Londrina Solid', cursive;
+    font-size:2em;
+    letter-spacing: .1em;
+  }
+
+p 
+   {
+    font: 1em/1.5 'Bree Serif', georgia, serif;
+    padding-left:1em;
+    padding-top:1em;
+    border:0;
+    color:white;
+    float:left;
+   }
+
+p#firstdance
+ {
+  font: .85em/1.6 'Bree Serif', georgia, serif;
+  padding-left:4em;
+  padding-top:2em;
+  padding-right:1em;
+  color:white;
+  text-align: justify;
+ }
+
+p#videotext
+ {
+  margin-right: 2em;
+  font: .9em/1.6 'Bree Serif', georgia, serif;
+  padding-left:1em;
+  padding-top:2em;
+  padding-right:2.5em;
+  padding-bottom:2.5em;
+  margin-right: 2em;
+  color:white;
+  text-align: justify;
+ }
+
+p#contact
+ {
+  margin-right: .5em;
+  font: .9em/1.6 'Bree Serif', georgia, serif;
+  padding-left:1em;
+  padding-top:1em .5em 2.5em .5em;
+  margin-top: 6em;
+  margin-right:2em;
+  color:black;
+  text-align: justify;
+ }
+
+
+blockquote p 
+ {
+  display:block;
+  background: rgb(125,125,125,50%);                                     /*blockquote in opaque background */
+  font-family: 'Londrina Shadow', cursive, sans-serif;
+  font-size: 2.1em;
+  line-height: 1.275em;
+  text-align: right;
+  margin-right: 0em;
+  margin-top: 1em;
+  margin-left:2.875em;
+  margin-bottom: 2.875em;
+  padding-right: .5em;
+  padding-bottom: .5em;
+ }
+
+
+#splash-headline
+  {  
+  padding-top: 1.5em;
+  padding-right: .2em;
+  color:rgb(152,68,40);
+  line-height: .88em;
+  }
+
+#tagline
+  {  
+  padding-top: .5em;
+  padding-right: .2em;
+  color:rgb(36,106,140);
+  line-height:.92;
+  }
+
+.testimonial
+  {
+  width: 65%;
+  font-size: .65em;
+  font-family: 'Bree Serif' , serif;
+  line-height: 1.2em;
+  letter-spacing: .08em;
+  color: white;
+  background : rgba(58,84,90, 0.5);
+  margin-top : 4em;
+  margin-left: 4em;
+  padding : 2em; 
+  
+  }
+
+#promo
+  { 
+    width: 95%;
+    height:auto;
+    vertical-align: center;
+  }
+
+#nav
+  {
+    background-color: #918714;
+    width:100%;
+    clear: both;
+  }
+
+#topmenu
+ {
+  margin-left:0px;
+  padding:0;
+ }
+
+ul#topmenu li
+  {
+   display: inline;
+   font-family: 'Londrina Solid', cursive;
+   font-size:.75em;
+   line-height: 2em;
+   letter-spacing: .2em;
+   padding-right: .5em;
+   padding-left: .5em;
+   margin-left:1em;
+  }
+
+ul#topmenu a 
+ {
+  text-decoration: none; 
+  color: white;
+ }
+
+#topmenu li.current a
+ {
+  background: none;
+  border:  solid;
+  border-size: .025em;
+  border-color: rgb(255,255,255, 75%);
+  font-color:#E8820C;                          
+  font-size:1.1em;
+  font-family: 'Londrina Solid', cursive;
+  padding-left:.5em;
+ }
+
+.primary
+ {
+  width:60%;
+  float:left;
+  padding:0;
+  margin:0;
+  border:0;
+  background-color: white;
+  text-align: right;
+ }
+
+.secondary
+ {
+   width:40%;
+   float:right;
+   height:auto;
+   padding: 0%;
+   margin:0px;
+   border:0px;
+ }
+ 
+.primary #enquiries
+ {
+  width:50%;
+  float:left;
+  padding-left:0;
+  margin:0;
+  border:0;
+  background-color: none;
+  text-align: left;
+ }
+
+
+.secondary #enquiries
+ {
+   width:40%;
+   float:right;
+   height:auto;
+   padding:0;
+   margin:0;
+   border:0;
+ }
+
+.secondary #enquiries img
+  {
+    width:85%;
+  }
+
+.secondary
+ {
+   width:40%;
+   float:right;
+   height:auto;
+   padding: 0%;
+   margin:0px;
+   border:0px;
+ }
+
+.primary #watch
+ {
+  width:40%;
+  float:left;
+  padding:0em;
+  margin:1em;
+  border:0px;
+  background-color: transparent;
+ }
+
+
+.secondary #watch
+ {
+  width:56%;
+  float:right;
+  height:auto;
+  padding: 0em;
+  margin-top:2em;
+  margin-right: .5em;
+  border:0px;
+ }
+
+#secondary img
+  {
+   /*width:100%;*/
+   object-fit: contain;
+  } 
+
+.column
+  {
+    width:33.33%;
+    float:left;
+    background-color: transparent;
+    margin:2em, 0;
+    padding-bottom: 2em;
+  }
+
+.audioplayer
+  {
+   width:80%;
+   margin-top : 4em;
+   margin-left: 0;
+   padding : 2em;
+   height:300px;
+   float:center;
+  }
+
+@media only screen and (max-width: 600px)                      /*columns stacked vertically for smaller screens*/
+  {
+    .column
+    {
+      width: 100%;
+    }
+  }
+
+#footer
+  {
+   width:100%;
+   background-color: #918714;
+   margin-bottom: 4em;
+   padding-top:0px;
+   display:table;
+   clear:both;
+  }
+
+
+#left
+  {
+    text-align:left;
+    font-size: .65em;
+    padding-left: 10%;
+    margin-top:1em;
+    line-height: 1em;
+    background-color: #918714;
+  }
+
+#right
+  {
+    color: white;
+    text-align:right;
+    font-size: .5em;
+    margin-top:1em;
+    padding-right: 2em;
+  }
+
+#middle
+  {
+    text-align:center;
+    font-size: .75em;
+    padding: 1em;
+  }
+
+hr 
+  {
+    border-top: 0px solid #ffffff;
+  }
+
+
+/****Enquiry Form****/   
+
+ /* Style inputs with type="text", select elements and textareas */
+    input[type=text], select, textarea 
+  {
+   width: 100%; /* Full width */
+   padding: 12px; /* Some padding */ 
+   border: 1px solid #ccc; /* Gray border */
+   border-radius: 4px; /* Rounded borders */
+   box-sizing: border-box; /* Make sure that padding and width stays in place */
+   margin-top: 6px; /* Add a top margin */
+   margin-bottom: 16px; /* Bottom margin */
+   resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+
+input[type=submit] 
+{
+    background-color: white;
+    color: #918714;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    
+input[type=submit]:hover 
+  {
+    background-color: rgb(145,135,120,50%);
+    colour: #918714;
+  }
+
+.container 
+  {
+    width:75%;
+    border-radius: .5em;
+    background-color: #f2f2f2;
+    padding: 1em;
+    margin-left:0px;
+    margin-bottom: 2em;
+    float:left;
+  } 
+
+
+/****Here Be Images****/
+
+.logo
+ {
+  float: right;
+  max-width:inherit;
+  margin: 1em;
+  padding-right: 20px;
+  padding-bottom:0px;
+ }
+
+.check
+ {
+  max-width:100%;
+  margin:0px;
+ }
+
+#footermid 
+ {
+  width:30%;
+ }
+
+.main-image-left
+ {
+  float: left;
+  margin: 1em;
+  height: 400px;
+ }
+
+.main-image-right
+ {
+  padding:0px;
+  margin:0px;
+  }
+
+#maingallery
+ {
+  width:100%;
+  margin-top:2em;
+  margin-bottom: 2em;
+  padding-bottom:2em;
+ }
+
+div.gallery 
+ {
+  padding: 2px;
+  margin: 0px;
+  border: 0px solid #ccc;
+  float: left;
+  width: 24%;
+ }
+
+div.gallery:hover 
+ {
+  border:0px;
+ }
+
+div.gallery img 
+ {
+   padding: .5em;
+   margin: 0px;
+   border: 0px;
+   width: 100%;
+   height: auto;
+ }
+
+#left img
+ {
+   width:2em;
+   margin:1em;
+  }
+
+
+
